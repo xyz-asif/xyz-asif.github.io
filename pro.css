@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+.t h2{
+    text-align: center;
+    margin: 100px 100px 0px 100px;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 60px;
+    font-weight: 300;
+ }
+ p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+ }
+.base{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bone{
+    display: flex;
+    border: solid black 2px;
+    border-radius: 5px;
+    max-width: 900px;
+    margin: 50px;
+    
+}
+
+.pic{
+    flex: 1;
+    background-color: black;
+}
+.pic img{
+    width: 100%;
+    height:auto;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+.txt{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px 10px 10px 10px;
+}
+.txt h2{
+    font-family: 'Righteous', cursive;
+}
+.btwo{
+    display: flex;
+    border: solid black 2px;
+    max-width: 900px;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    bottom: 0%;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .phone img{
+    width: 22px;
+    height: 24px;
+}
+footer .home img{
+    width: 30px;
+    height: 29px;
+}
+footer .back img{
+    width: 30px;
+    height: 20px;
+}
+
+/* font-family: 'East Sea Dokdo', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive; */
+button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: max-content;
+    border-radius: 5px;
+}
+
+button p{
+    padding: 3px 15px;
+    
+}
+@media only screen and (max-width: 1700px){
+    .txt h2{
+        font-size: 20px;
+    }
+    .txt p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    .base{
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+     
+    }  
+} 
+@media only screen and (max-width: 750px){
+    .pic img{
+        width: 350px;
+        height:200px;
+        border-radius: 5px;
+    }
+    .txt h2{
+        font-size: 20px;
+    }
+    .txt p{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .pic img{
+        width: 300px;
+        height:150px;
+        border-radius: 5px;
+    }
+    .txt h2{
+        font-size: 15px;
+    }
+    .txt p{
+        font-size: 7px;
+    }
+ 
+    .bone{
+        flex-direction: column;
+    }
+    .btwo{
+        flex-direction: column;
+    }
+    .txt h2{
+        margin: 5px;
+    }
+    .txt p{
+        margin: 5px;
+
+    }
+    .txt button{
+        margin: 5px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .t h2{
+        margin: 50px;
+    }
+    .bone{
+        flex-direction: column;
+    }
+    .btwo{
+        flex-direction: column;
+    }
+    .txt h2{
+        margin: 5px;
+    }
+    .txt p{
+        margin: 5px;
+
+    }
+    .txt button{
+        margin: 5px;
+    }
+    button p{
+        padding: 3px 8px;
+        
+    }
+    footer .phone img{
+        width: 18px;
+        height: 20px;
+    }
+    footer .home img{
+        width: 25px;
+        height: 24px;
+    }
+    footer .back img{
+        width: 25px;
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .t h2{
+        margin: 50px;
+    }
+    .bone{
+        flex-direction: column;
+    }
+    .btwo{
+        flex-direction: column;
+    }
+    .txt h2{
+        margin: 5px;
+    }
+    .txt p{
+        margin: 5px;
+
+    }
+    .txt button{
+        margin: 5px;
+    }
+    button p{
+        padding: 3px 8px;
+        
+    }
+    footer .phone img{
+        width: 16px;
+        height: 18px;
+    }
+    footer .home img{
+        width: 22px;
+        height: 21px;
+    }
+    footer .back img{
+        width: 20px;
+        height: 15px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .pic img{
+        width: 270px;
+        height:120px;
+        border-radius: 5px;
+    }
+    .t h2{
+        margin: 40px;
+        font-size: 50px;
+    }
+
+    .bone{
+        flex-direction: column;
+       
+    }
+    .btwo{
+        flex-direction: column;
+    }
+    .txt h2{
+        margin: 5px;
+    }
+    .txt p{
+        margin: 5px;
+
+    }
+    .txt button{
+        margin: 5px;
+    }
+    button p{
+        padding: 3px 5px;
+        
+    }
+    footer .phone img{
+        width: 16px;
+        height: 18px;
+    }
+    footer .home img{
+        width: 22px;
+        height: 21px;
+    }
+    footer .back img{
+        width: 20px;
+        height: 15px;
+    }
+    
+}
