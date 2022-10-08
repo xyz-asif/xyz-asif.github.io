@@ -49,8 +49,9 @@ img{
     padding-top: 20px;
     grid-column: 1/7;
     grid-row: 3/4;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
+    color: #807f7f;
 }
 
 .intro .z{
